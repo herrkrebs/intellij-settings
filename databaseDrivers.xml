@@ -16,6 +16,14 @@
     <driver id="sqlserver.jtds" name="SQL Server (jTds)" dialect="TSQL">
       <option name="auto-sync" value="false" />
     </driver>
+    <driver id="55fe9312-e318-4150-b79f-a473c558cdc3" name="org.sqlite.JDBC" driver-class="org.sqlite.JDBC">
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+      </library>
+    </driver>
     <driver id="hsqldb.local" name="HSQLDB (Local)" dialect="HSQLDB">
       <option name="auto-sync" value="true" />
     </driver>
@@ -23,6 +31,14 @@
       <option name="auto-sync" value="true" />
     </driver>
     <driver id="org.sqlite.JDBC" name="org.sqlite.JDBC" driver-class="org.sqlite.JDBC">
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+      </library>
+    </driver>
+    <driver id="bd2095d0-9f1d-4e37-8d0b-1c19657ec933" name="org.sqlite.JDBC" driver-class="org.sqlite.JDBC">
       <library>
         <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
       </library>
