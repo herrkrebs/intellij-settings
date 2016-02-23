@@ -22,6 +22,14 @@
     <driver id="derby.remote" name="Derby (Remote)" dialect="Derby">
       <option name="auto-sync" value="true" />
     </driver>
+    <driver id="org.sqlite.JDBC" name="org.sqlite.JDBC" driver-class="org.sqlite.JDBC">
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/xerial-sqlite-license.txt</url>
+      </library>
+      <library>
+        <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/sqlite-jdbc-3.8.9.jar</url>
+      </library>
+    </driver>
     <driver id="sqlite.xerial" name="Sqlite (Xerial)" dialect="SQLite">
       <option name="auto-sync" value="true" />
       <library>
