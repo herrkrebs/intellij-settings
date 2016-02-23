@@ -1,0 +1,25 @@
+<application>
+  <component name="AndroidRemoteDataBaseManager">
+    <databases>
+      <entry>
+        <key>
+          <db-key>
+            <option name="deviceId" value="SERIAL_NUMBER_HT3AMWE02148" />
+            <option name="packageName" value="com.bingooo.bingoooag.bingoooreader.dev" />
+            <option name="databaseName" value="App.db" />
+          </db-key>
+        </key>
+        <value>
+          <db-info>
+            <option name="modificationTime" value="1456234698" />
+            <option name="referringProjects">
+              <set>
+                <option value="C:/Work/Projects/Java/bingooo-reader-new" />
+              </set>
+            </option>
+          </db-info>
+        </value>
+      </entry>
+    </databases>
+  </component>
+</application>
